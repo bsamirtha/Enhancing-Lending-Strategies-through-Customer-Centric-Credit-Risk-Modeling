@@ -15,7 +15,7 @@ The objective of this project is to **predict loan defaults** based on customer 
 The dataset consists of 9 columns, each providing specific details about customers and their loan profiles:
 
 - **Customer ID**: A unique identifier for each customer.
-- **Loan Status**: `0` indicates the loan is not approved, while `1` indicates the loan is approved to the customer.
+- **Loan Status**: `0` indicates the loan is under non-default, while `1` indicates the loan is under default.
 - **Loan Amount**: The amount of money sanctioned as a loan to the customer.
 - **Interest Rate**: The interest rate applied to the loan, which varies based on several factors. Some entries contain missing values, which must be handled appropriately before building any predictive models.
 - **Grade**: Likely represents the customer’s credit grade, influencing loan approval and terms.
